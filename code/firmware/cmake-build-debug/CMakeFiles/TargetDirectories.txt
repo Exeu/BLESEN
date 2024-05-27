@@ -1,0 +1,3 @@
+D:/Elektronik/Kicad/BLESEN/code/firmware/cmake-build-debug/CMakeFiles/BLESEN.elf.dir
+D:/Elektronik/Kicad/BLESEN/code/firmware/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Elektronik/Kicad/BLESEN/code/firmware/cmake-build-debug/CMakeFiles/rebuild_cache.dir

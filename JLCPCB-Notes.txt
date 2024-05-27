@@ -1,0 +1,10 @@
+Impedance Control required
+
+
+1) 50 Ohms (+-10%) Single-Ended Microstrip
+L1 (ref. L2)
+Trace width = 0.1565 mm (JLC Impedance calculator)
+Layer-stackup JLC04161H-3313 (preferred)
+
+
+Confirm trace width. Adjust stackup as necessary

@@ -1,0 +1,1 @@
+C:\ST\STM32CubeCLT_1.15.1\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe -g -Wl,-gc-sections,--print-memory-usage,-Map=D:/Elektronik/Kicad/BLESEN/code/firmware/cmake-build-debug/BLESEN.map -mcpu=cortex-m4 -mthumb -mthumb-interwork -T D:/Elektronik/Kicad/BLESEN/code/firmware/STM32WB55CEUX_FLASH.ld @CMakeFiles\BLESEN.elf.dir\objects1.rsp -o BLESEN.elf 
