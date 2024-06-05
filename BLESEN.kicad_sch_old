@@ -2714,10 +2714,10 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "ADC1_IN15" bidirectional line)
 					(alternate "LCD_COM0" bidirectional line)
 					(alternate "LPTIM2_OUT" bidirectional line)
-					(alternate "" input line)
 					(alternate "RCC_MCO" bidirectional line)
 					(alternate "SAI1_CK2" bidirectional line)
 					(alternate "SAI1_SCK_A" bidirectional line)
@@ -3477,9 +3477,9 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "I2C1_SCL" bidirectional line)
 					(alternate "LCD_SEG16" bidirectional line)
-					(alternate "" input line)
 					(alternate "QUADSPI_BK1_IO1" bidirectional line)
 					(alternate "SAI1_CK1" bidirectional line)
 					(alternate "SAI1_MCLK_A" bidirectional line)
@@ -3503,10 +3503,10 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "I2C1_SDA" bidirectional line)
 					(alternate "IR_OUT" bidirectional line)
 					(alternate "LCD_COM3" bidirectional line)
-					(alternate "" input line)
 					(alternate "QUADSPI_BK1_IO0" bidirectional line)
 					(alternate "SAI1_D2" bidirectional line)
 					(alternate "SAI1_FS_A" bidirectional line)
@@ -3574,6 +3574,85 @@
 					(alternate "SYS_WKUP1" bidirectional line)
 					(alternate "TIM2_CH1" bidirectional line)
 					(alternate "TIM2_ETR" bidirectional line)
+				)
+			)
+		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
 				)
 			)
 		)
@@ -4088,7 +4167,7 @@
 		(uuid "2ba8c95e-7d3c-42d9-ade4-510c9bd94e4a")
 	)
 	(junction
-		(at 175.26 129.54)
+		(at 173.99 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c76dbd2-4e4f-48cb-8063-a1d227865833")
@@ -4136,7 +4215,7 @@
 		(uuid "4a61b2a3-dfca-4294-aed6-e189a7fcbdbb")
 	)
 	(junction
-		(at 179.07 118.11)
+		(at 177.8 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b0bf42e-a878-48c9-922f-58972add75fc")
@@ -4268,7 +4347,7 @@
 		(uuid "cd032459-0a0c-4d51-93c7-3b8ddf154c33")
 	)
 	(junction
-		(at 171.45 118.11)
+		(at 170.18 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d977e18c-6165-43ce-9fdd-547c95027941")
@@ -4495,7 +4574,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 129.54) (xy 179.07 129.54)
+			(xy 173.99 129.54) (xy 177.8 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4565,7 +4644,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 109.22) (xy 179.07 109.22)
+			(xy 157.48 109.22) (xy 177.8 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4955,7 +5034,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 118.11) (xy 171.45 121.92)
+			(xy 170.18 118.11) (xy 170.18 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5105,7 +5184,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 129.54) (xy 175.26 134.62)
+			(xy 173.99 129.54) (xy 173.99 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5335,7 +5414,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 129.54) (xy 175.26 129.54)
+			(xy 170.18 129.54) (xy 173.99 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5365,7 +5444,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 100.33) (xy 171.45 100.33)
+			(xy 157.48 100.33) (xy 170.18 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5675,7 +5754,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 118.11) (xy 179.07 121.92)
+			(xy 177.8 118.11) (xy 177.8 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5775,7 +5854,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 109.22) (xy 179.07 118.11)
+			(xy 177.8 109.22) (xy 177.8 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5835,7 +5914,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 100.33) (xy 171.45 118.11)
+			(xy 170.18 100.33) (xy 170.18 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5885,7 +5964,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 102.87) (xy 157.48 109.22)
+			(xy 157.48 109.22) (xy 157.48 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6134,6 +6213,18 @@
 		(uuid 7b6e41b1-ec52-41dc-b165-ceff0405ab0b)
 	)
 	(rectangle
+		(start 245.11 133.35)
+		(end 261.62 162.56)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 874dd209-44e5-443d-b5e1-87674a8e49c0)
+	)
+	(rectangle
 		(start 264.16 133.35)
 		(end 279.4 162.56)
 		(stroke
@@ -6221,6 +6312,17 @@
 			(justify left bottom)
 		)
 		(uuid "ad1368b1-005a-4c5f-926f-8b33ffb741e7")
+	)
+	(text "Fiducial Marker\n"
+		(exclude_from_sim no)
+		(at 245.872 136.906 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b97c761c-48bf-441b-8f6c-b85bf282bfdf")
 	)
 	(text "Tag-Connect (SWD)"
 		(exclude_from_sim no)
@@ -6698,7 +6800,7 @@
 			(uuid "2e047586-5e93-4910-bbca-0ffccf94e1a2")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "#PWR026")
 					(unit 1)
@@ -6764,7 +6866,7 @@
 			(uuid "02fa67c8-fb25-40cc-88b9-2a962d716035")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "#PWR01")
 					(unit 1)
@@ -6841,7 +6943,7 @@
 			(uuid "68342486-8a16-4db8-bae3-057d64deaf4c")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "L3")
 					(unit 1)
@@ -6907,7 +7009,7 @@
 			(uuid "be6138a3-0c79-48cb-8087-7a90d6a6dadd")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "#PWR03")
 					(unit 1)
@@ -6985,9 +7087,75 @@
 			(uuid "77e7d766-6b49-4bf3-bfa3-d6f0e2b536da")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 250.19 154.94 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "106e759d-1308-4d17-8058-3997c2c0414d")
+		(property "Reference" "FID1"
+			(at 252.73 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 252.73 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
+			(at 250.19 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 250.19 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BLESEN"
+				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
+					(reference "FID1")
 					(unit 1)
 				)
 			)
@@ -7063,7 +7231,7 @@
 			(uuid "09c23309-3c5f-4831-ab07-eecfbb47c8f5")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "C13")
 					(unit 1)
@@ -7128,7 +7296,7 @@
 			(uuid "064bf0c9-6854-46d3-ad91-7c60cd22b6ca")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "#PWR023")
 					(unit 1)
@@ -7211,7 +7379,7 @@
 			(uuid "798e7655-f68f-4444-999e-bd6518847f0e")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "FLT1")
 					(unit 1)
@@ -7281,7 +7449,7 @@
 			(uuid "5eaf2621-88d1-44fa-a6fa-59f1668c33cb")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "BT1")
 					(unit 1)
@@ -7359,7 +7527,7 @@
 			(uuid "6f9d57f9-8eb5-4166-b455-671faee8144a")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "C10")
 					(unit 1)
@@ -7425,7 +7593,7 @@
 			(uuid "f1559d5f-da8d-41c0-a722-cf57a8313dc9")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "#PWR018")
 					(unit 1)
@@ -7503,7 +7671,7 @@
 			(uuid "d09b557e-4bf2-413f-8b80-a830d8abd90d")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "C16")
 					(unit 1)
@@ -7564,7 +7732,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3911026"
+		(property "LCSC" "C464435"
 			(at 179.07 62.23 0)
 			(effects
 				(font
@@ -7580,7 +7748,7 @@
 			(uuid "0eaa2fcb-3b05-4562-a243-f3e4bd8718ec")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "L2")
 					(unit 1)
@@ -7658,7 +7826,7 @@
 			(uuid "8d3ae01c-dfa9-4dcc-9f1e-d077fd75d19f")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "C6")
 					(unit 1)
@@ -7739,7 +7907,7 @@
 			(uuid "12c21ce2-163a-4a08-a940-2e7331d64368")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "J1")
 					(unit 1)
@@ -7804,7 +7972,7 @@
 			(uuid "a65fa2cd-e41c-4b72-8977-bf8c0228dd3f")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "#PWR07")
 					(unit 1)
@@ -7870,7 +8038,7 @@
 			(uuid "f33478e6-d63e-481c-8d4b-69e37f5dac5e")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "#PWR02")
 					(unit 1)
@@ -7936,7 +8104,7 @@
 			(uuid "cfedab98-9dc8-46ce-9101-8a7efae847a8")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "#PWR017")
 					(unit 1)
@@ -8015,7 +8183,7 @@
 			(uuid "b0b85a08-c3bf-4182-9a4f-ada86ccf454c")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "C9")
 					(unit 1)
@@ -8092,7 +8260,7 @@
 			(uuid "62433257-e789-4e2b-8ed5-938440417a92")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "L1")
 					(unit 1)
@@ -8101,35 +8269,37 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 179.07 125.73 0)
+		(lib_id "Mechanical:Fiducial")
+		(at 250.19 149.86 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2cf056ce-4ffa-461f-b870-6bb08f375b6a")
-		(property "Reference" "C15"
-			(at 182.88 124.4599 0)
+		(uuid "2ac28b1a-221f-41c6-b596-7a9d84584fd8")
+		(property "Reference" "FID2"
+			(at 252.73 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "10p"
-			(at 182.88 126.9999 0)
+		(property "Value" "Fiducial"
+			(at 252.73 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 180.0352 129.54 0)
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
+			(at 250.19 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8138,7 +8308,71 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 125.73 0)
+			(at 250.19 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 250.19 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BLESEN"
+				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 177.8 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cf056ce-4ffa-461f-b870-6bb08f375b6a")
+		(property "Reference" "C15"
+			(at 181.61 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10p"
+			(at 181.61 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 178.7652 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8147,7 +8381,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 179.07 125.73 0)
+			(at 177.8 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8156,7 +8390,7 @@
 			)
 		)
 		(property "LCSC" "C32949"
-			(at 182.88 124.4599 0)
+			(at 181.61 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8171,7 +8405,7 @@
 			(uuid "e7e56090-68b8-4282-ac42-5a62e0b3be70")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "C15")
 					(unit 1)
@@ -8237,9 +8471,75 @@
 			(uuid "c8dc029f-957f-449f-8fd5-431f021bf1c4")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 250.19 144.78 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "316fec90-1af1-4d1b-878b-e57970ad9485")
+		(property "Reference" "FID3"
+			(at 252.73 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 252.73 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
+			(at 250.19 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 250.19 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BLESEN"
+				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
+					(reference "FID3")
 					(unit 1)
 				)
 			)
@@ -8303,7 +8603,7 @@
 			(uuid "043004b0-8d3f-4e52-a0de-aea04a6ebd82")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "#PWR011")
 					(unit 1)
@@ -8313,7 +8613,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 175.26 134.62 0)
+		(at 173.99 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8322,7 +8622,7 @@
 		(fields_autoplaced yes)
 		(uuid "34734815-99ca-4be5-bfa3-9bdaf9539643")
 		(property "Reference" "#PWR016"
-			(at 175.26 140.97 0)
+			(at 173.99 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8331,7 +8631,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 139.7 0)
+			(at 173.99 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8339,7 +8639,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 134.62 0)
+			(at 173.99 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8348,7 +8648,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 134.62 0)
+			(at 173.99 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8357,7 +8657,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 134.62 0)
+			(at 173.99 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8369,7 +8669,7 @@
 			(uuid "e376fb66-32d8-4987-b892-fca2b929fe9a")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "#PWR016")
 					(unit 1)
@@ -8394,7 +8694,7 @@
 				)
 			)
 		)
-		(property "Value" "32 Mhz"
+		(property "Value" "32 MHz"
 			(at 224.79 47.752 0)
 			(effects
 				(font
@@ -8451,7 +8751,7 @@
 			(uuid "ce1b0adb-7dbe-4ac7-8802-c908e58761b3")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "Y1")
 					(unit 1)
@@ -8514,7 +8814,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C32949"
+		(property "LCSC" "C25744"
 			(at 53.34 114.2999 0)
 			(effects
 				(font
@@ -8530,7 +8830,7 @@
 			(uuid "d4e37488-205f-4cdf-92f5-7f087e15845a")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "R1")
 					(unit 1)
@@ -8608,7 +8908,7 @@
 			(uuid "6d7ccc22-81eb-4299-a288-1489e63d5d88")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "C2")
 					(unit 1)
@@ -8686,7 +8986,7 @@
 			(uuid "31c438dd-b88f-4d82-b669-f3d4cc91632a")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "C12")
 					(unit 1)
@@ -8752,7 +9052,7 @@
 			(uuid "8193e0e7-1ed9-4da2-8f65-5de735c2f9f2")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "#PWR05")
 					(unit 1)
@@ -8817,7 +9117,7 @@
 			(uuid "7e62272d-4938-4a4e-9c53-6022c5bf8025")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "#PWR022")
 					(unit 1)
@@ -8891,7 +9191,7 @@
 			(uuid "af897d74-35f0-4a06-9414-0621074ca82f")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "J3")
 					(unit 1)
@@ -8957,7 +9257,7 @@
 			(uuid "e7b02b3a-5166-4877-af84-b9221c1e77f6")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "#PWR08")
 					(unit 1)
@@ -9035,7 +9335,7 @@
 			(uuid "ec9595af-494f-41c5-a096-f1f88b997cb9")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "C17")
 					(unit 1)
@@ -9101,7 +9401,7 @@
 			(uuid "31c30eba-0203-46d6-b0d8-c7ebc88b9bda")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "#PWR013")
 					(unit 1)
@@ -9167,7 +9467,7 @@
 			(uuid "3a0c0124-fe5a-4868-b005-b3b0006c3030")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "#PWR015")
 					(unit 1)
@@ -9243,7 +9543,7 @@
 			(uuid "e4134bf2-ed26-47d3-a684-af14616cb60b")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "J2")
 					(unit 1)
@@ -9321,7 +9621,7 @@
 			(uuid "1d648cd5-44a8-4f88-b5b6-1f19ff7f15d7")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "C1")
 					(unit 1)
@@ -9386,7 +9686,7 @@
 			)
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "H3")
 					(unit 1)
@@ -9465,7 +9765,7 @@
 			(uuid "61337760-eb57-4842-811c-77dcd4c4d235")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "C8")
 					(unit 1)
@@ -9531,7 +9831,7 @@
 			(uuid "c00c6be0-78c0-4c15-80cc-05021af293c7")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "#PWR012")
 					(unit 1)
@@ -9607,7 +9907,7 @@
 			(uuid "ba67ba0f-812d-454c-be20-1d408af0ad0a")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "D1")
 					(unit 1)
@@ -9685,7 +9985,7 @@
 			(uuid "276834bc-465e-42d0-a729-da23f18a3624")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "C18")
 					(unit 1)
@@ -9748,7 +10048,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C32949"
+		(property "LCSC" "C25744"
 			(at 60.96 114.2999 0)
 			(effects
 				(font
@@ -9764,7 +10064,7 @@
 			(uuid "e86a60cf-384b-49b6-acf7-8b9dbfee5bd7")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "R2")
 					(unit 1)
@@ -9829,7 +10129,7 @@
 			(uuid "65042603-1446-4d75-9236-c8d11bc981a2")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "#PWR024")
 					(unit 1)
@@ -9839,7 +10139,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 171.45 125.73 0)
+		(at 170.18 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9847,7 +10147,7 @@
 		(dnp no)
 		(uuid "98dc2282-181c-4b71-b1f5-9ba98059db15")
 		(property "Reference" "C14"
-			(at 164.338 124.206 0)
+			(at 163.068 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9856,7 +10156,7 @@
 			)
 		)
 		(property "Value" "10p"
-			(at 164.338 126.746 0)
+			(at 163.068 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9865,7 +10165,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 172.4152 129.54 0)
+			(at 171.1452 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9874,7 +10174,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 125.73 0)
+			(at 170.18 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9883,7 +10183,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 171.45 125.73 0)
+			(at 170.18 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9892,7 +10192,7 @@
 			)
 		)
 		(property "LCSC" "C32949"
-			(at 175.26 124.4599 0)
+			(at 173.99 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9907,7 +10207,7 @@
 			(uuid "5197bef7-89a3-4bd3-889f-5b670779d8d8")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "C14")
 					(unit 1)
@@ -9983,7 +10283,7 @@
 			(uuid "96e81384-218d-4205-966f-e6c69fb2a614")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "R3")
 					(unit 1)
@@ -10061,7 +10361,7 @@
 			(uuid "91af4e1f-cbc4-46fa-b015-9b106f62b47a")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "C7")
 					(unit 1)
@@ -10127,7 +10427,7 @@
 			(uuid "835becc2-a3ae-4464-a6da-d19c406f847e")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "#PWR06")
 					(unit 1)
@@ -10205,7 +10505,7 @@
 			(uuid "2617a529-8533-4069-9594-fab3028ea755")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "C4")
 					(unit 1)
@@ -10271,7 +10571,7 @@
 			(uuid "ba887977-1cd9-4f99-be84-698205996748")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "#PWR020")
 					(unit 1)
@@ -10349,7 +10649,7 @@
 			(uuid "f016d87f-f4e0-4e7b-9ef9-14cdaee738c8")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "C11")
 					(unit 1)
@@ -10359,7 +10659,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 175.26 118.11 0)
+		(at 173.99 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10368,15 +10668,15 @@
 		(fields_autoplaced yes)
 		(uuid "adde05e7-4323-472d-8dee-d50a0e50e1c9")
 		(property "Reference" "Y2"
-			(at 175.26 110.49 0)
+			(at 173.99 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Crystal"
-			(at 175.26 113.03 0)
+		(property "Value" "32.768KHz"
+			(at 173.99 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10384,7 +10684,7 @@
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm"
-			(at 175.26 118.11 0)
+			(at 173.99 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10393,7 +10693,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 118.11 0)
+			(at 173.99 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10402,7 +10702,7 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
-			(at 175.26 118.11 0)
+			(at 173.99 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10411,7 +10711,7 @@
 			)
 		)
 		(property "LCSC" "C528982"
-			(at 175.26 110.49 0)
+			(at 173.99 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10426,7 +10726,7 @@
 			(uuid "eae5057d-f55f-4e1c-a395-605bf7d0c482")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "Y2")
 					(unit 1)
@@ -10491,7 +10791,7 @@
 			(uuid "29627809-7cd9-45a0-9643-0d041780dd09")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "#PWR014")
 					(unit 1)
@@ -10567,7 +10867,7 @@
 			(uuid "048550e4-e921-407a-bec2-ea8f007f6c1f")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "R4")
 					(unit 1)
@@ -10633,7 +10933,7 @@
 			(uuid "8782acc9-7fec-4ba8-82e1-e54c3c7220fc")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "#PWR04")
 					(unit 1)
@@ -10698,7 +10998,7 @@
 			)
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "H2")
 					(unit 1)
@@ -10776,7 +11076,7 @@
 			(uuid "0a1c2b24-29ba-4321-b255-592c58d87dc2")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "C5")
 					(unit 1)
@@ -10841,7 +11141,7 @@
 			(uuid "f073892e-30dd-450b-9953-5daf9380f9f8")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "#PWR019")
 					(unit 1)
@@ -10981,7 +11281,7 @@
 			(uuid "32efbcca-81fc-4c8a-8105-a1400ea54010")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "RST1")
 					(unit 1)
@@ -11069,7 +11369,7 @@
 			(uuid "4fe36c68-602b-4d55-8c2d-4eca013ee814")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "U2")
 					(unit 1)
@@ -11147,7 +11447,7 @@
 			(uuid "510506cc-893a-4e17-b04c-6e53c292fd3f")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "C3")
 					(unit 1)
@@ -11211,7 +11511,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C911135"
+		(property "LCSC" "C404023"
 			(at 129.8859 135.89 0)
 			(effects
 				(font
@@ -11380,7 +11680,7 @@
 			(uuid "7dce4363-7778-4cac-9130-de13634be197")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "U1")
 					(unit 1)
@@ -11446,7 +11746,7 @@
 			(uuid "9afd9cc7-f146-4869-a8cf-efbce4a859ae")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "#PWR025")
 					(unit 1)
@@ -11512,7 +11812,7 @@
 			(uuid "fce51261-58b2-4cd7-b0ae-9f939b67ef77")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "#PWR09")
 					(unit 1)
@@ -11579,7 +11879,7 @@
 			(uuid "2656116b-f5f8-416f-a882-6e640d9d27c2")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "AE1")
 					(unit 1)
@@ -11644,7 +11944,7 @@
 			)
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "H4")
 					(unit 1)
@@ -11710,7 +12010,7 @@
 			(uuid "98d190e1-c79a-44e7-9b62-054807439ac4")
 		)
 		(instances
-			(project "STM32-Breakout"
+			(project "BLESEN"
 				(path "/7d0d12ad-512d-4b75-8b08-3e129b8dbf6a"
 					(reference "#PWR010")
 					(unit 1)
