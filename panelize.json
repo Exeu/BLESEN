@@ -2,8 +2,15 @@
     "layout": {
         "hspace": "3mm",
         "vspace": "3mm",
-        "rows": "3",
+        "rows": "2",
         "cols": "2"
+    },
+    "tabs": {
+        "type": "fixed",
+        "vwidth": "10mm",
+        "hwidth": "5mm",
+        "hcount": "0",
+        "fillet": "1mm"
     },
     "cuts": {
         "type": "vcuts",
@@ -11,13 +18,8 @@
         "layer": "0"
     },
     "framing": {
-        "type": "frame",
+        "type": "railstb",
+        "width": "6mm",
         "fillet": "2mm"
-    },
-    "fiducials": {
-        "type": "3fid",
-        "hoffset": "3.4mm",
-        "voffset": "3.4mm",
-        "opening": "2mm"
     }
 }

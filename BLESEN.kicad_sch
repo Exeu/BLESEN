@@ -3827,45 +3827,49 @@
 				)
 			)
 		)
-		(symbol "Sensor_Humidity:SHTC3"
+		(symbol "Sensor_Humidity:SHT4x"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -3.81 6.35 0)
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" "SHTC3"
-				(at -2.54 -6.35 0)
+			(property "Value" "SHT4x"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Footprint" "Sensor_Humidity:Sensirion_DFN-4-1EP_2x2mm_P1mm_EP0.7x1.6mm"
-				(at 5.08 -8.89 0)
+			(property "Footprint" "Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad"
+				(at 3.81 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/0_Datasheets/Humidity/Sensirion_Humidity_Sensors_SHTC3_Datasheet.pdf"
-				(at -7.62 11.43 0)
+			(property "Datasheet" "https://sensirion.com/media/documents/33FD6951/624C4357/Datasheet_SHT4x.pdf"
+				(at 3.81 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" "Humidity and Temperature Sensor, +/-2%RH, +/-0.2degC, I2C, 1.62-3.6V, DFN-4"
+			(property "Description" "Digital Humidity and Temperature Sensor, +/-1%RH, +/-0.1degC, I2C, 1.08-3.6V, 16bit, DFN-4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3874,7 +3878,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Sensirion environment environmental measurement digital"
+			(property "ki_keywords" "Sensirion environment environmental measurement digital SHT40 SHT41 SHT45"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3883,7 +3887,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Sensirion*DFN*1EP*2x2mm*P1mm*EP0.7x1.6mm*"
+			(property "ki_fp_filters" "Sensirion?DFN*1.5x1.5mm*P0.8mm*SHT4x*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3892,7 +3896,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SHTC3_1_1"
+			(symbol "SHT4x_1_1"
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -3904,10 +3908,10 @@
 						(type background)
 					)
 				)
-				(pin power_in line
-					(at 2.54 7.62 270)
+				(pin bidirectional line
+					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name "VDD"
+					(name "SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3940,10 +3944,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -7.62 -2.54 0)
+				(pin power_in line
+					(at 2.54 7.62 270)
 					(length 2.54)
-					(name "SDA"
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3969,24 +3973,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 0 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7560,7 +7546,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" "C1546"
 			(at 180.848 24.384 0)
 			(effects
 				(font
@@ -11261,7 +11247,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Humidity:SHTC3")
+		(lib_id "Sensor_Humidity:SHT4x")
 		(at 38.1 124.46 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11279,7 +11265,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SHTC3"
+		(property "Value" "SHT4x"
 			(at 31.75 125.7299 0)
 			(effects
 				(font
@@ -11288,25 +11274,27 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Sensor_Humidity:Sensirion_DFN-4-1EP_2x2mm_P1mm_EP0.7x1.6mm"
-			(at 33.02 115.57 0)
+		(property "Footprint" "Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad"
+			(at 34.29 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/0_Datasheets/Humidity/Sensirion_Humidity_Sensors_SHTC3_Datasheet.pdf"
-			(at 45.72 135.89 0)
+		(property "Datasheet" "https://sensirion.com/media/documents/33FD6951/624C4357/Datasheet_SHT4x.pdf"
+			(at 34.29 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Humidity and Temperature Sensor, +/-2%RH, +/-0.2degC, I2C, 1.62-3.6V, DFN-4"
+		(property "Description" "Digital Humidity and Temperature Sensor, +/-1%RH, +/-0.1degC, I2C, 1.08-3.6V, 16bit, DFN-4"
 			(at 38.1 124.46 0)
 			(effects
 				(font
@@ -11329,9 +11317,6 @@
 		)
 		(pin "3"
 			(uuid "e18a4c28-958f-41de-b29f-342ab768a960")
-		)
-		(pin "5"
-			(uuid "86129b68-7953-4681-9fc9-94830a50596f")
 		)
 		(pin "2"
 			(uuid "63e2a682-df82-4a02-9643-533879bf9122")
