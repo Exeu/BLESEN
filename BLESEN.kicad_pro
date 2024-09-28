@@ -605,7 +605,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "C:/Users/jan/Desktop/STM32-Breakout_2.step",
+      "step": "../../../STM32-Breakout_2.step",
       "svg": "",
       "vrml": ""
     },
