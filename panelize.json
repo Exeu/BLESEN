@@ -1,0 +1,23 @@
+{
+    "layout": {
+        "hspace": "3mm",
+        "vspace": "3mm",
+        "rows": "3",
+        "cols": "2"
+    },
+    "cuts": {
+        "type": "vcuts",
+        "cutcurves": "True",
+        "layer": "0"
+    },
+    "framing": {
+        "type": "frame",
+        "fillet": "2mm"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "3.4mm",
+        "voffset": "3.4mm",
+        "opening": "2mm"
+    }
+}
