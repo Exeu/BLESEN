@@ -144,11 +144,10 @@
       },
       "teardrop_options": [
         {
-          "td_onpthpad": true,
+          "td_onpadsmd": true,
           "td_onroundshapesonly": false,
-          "td_onsmdpad": true,
           "td_ontrackend": false,
-          "td_onvia": true
+          "td_onviapad": true
         }
       ],
       "teardrop_parameters": [
@@ -486,7 +485,7 @@
   },
   "meta": {
     "filename": "BLESEN.kicad_pro",
-    "version": 3
+    "version": 1
   },
   "net_settings": {
     "classes": [
@@ -501,7 +500,6 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -519,7 +517,6 @@
         "microvia_drill": 0.1,
         "name": "I2C",
         "pcb_color": "rgb(255, 252, 53)",
-        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1565,
         "via_diameter": 0.7,
@@ -537,7 +534,6 @@
         "microvia_drill": 0.1,
         "name": "RF",
         "pcb_color": "rgb(30, 255, 9)",
-        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1565,
         "via_diameter": 0.7,
@@ -555,7 +551,6 @@
         "microvia_drill": 0.1,
         "name": "SWD",
         "pcb_color": "rgb(50, 253, 255)",
-        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1565,
         "via_diameter": 0.7,
@@ -573,7 +568,6 @@
         "microvia_drill": 0.1,
         "name": "UART",
         "pcb_color": "rgb(255, 181, 63)",
-        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1565,
         "via_diameter": 0.7,
@@ -582,7 +576,7 @@
       }
     ],
     "meta": {
-      "version": 4
+      "version": 3
     },
     "net_colors": {
       "+3.3V": "rgb(58, 38, 255)",
